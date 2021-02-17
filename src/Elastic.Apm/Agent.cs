@@ -96,6 +96,9 @@ using Elastic.Apm.Report;
 		"Elastic.Apm.StackExchange.Redis.Tests, PublicKey=" + Signing.PublicKey)]
 [assembly:
 	InternalsVisibleTo(
+		"Elastic.Apm.Shipeedo.RabbitMQClient, PublicKey=" + Signing.PublicKey)]
+[assembly:
+	InternalsVisibleTo(
 		"Elastic.Apm.Tests.Utilities, PublicKey=" + Signing.PublicKey)]
 [assembly:
 	InternalsVisibleTo(
